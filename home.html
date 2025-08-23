@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="HOME.CSS" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <script src="home.js"></script>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="#" id="home"><i class="fa-solid fa-house"></i>Home</a>
+        </li>
+        <li>
+          <a href="#about" id="About"
+            ><i class="fa-solid fa-user"></i>About me</a
+          >
+        </li>
+        <li>
+          <a href="#" id="project"
+            ><i class="fa-solid fa-briefcase"></i>Works</a
+          >
+        </li>
+        <li>
+          <a href="#" id="contact"><i class="fa-solid fa-phone"></i>Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <!--Home page-->
+    <i><h1 id="name">KOKILAVANI M</h1></i>
+    <div class="profilesection">
+      <div class="profiletext">
+        <h1 id="text">PYTHON FULLSTACK DEVELOPER!</h1>
+        <h2 id="text" style="margin-left: 8%">Hii I'm Vani from Salem.</h2>
+      </div>
+      <img id="one" src="vaniprofile.jpeg" />
+    </div>
+    <!--About me-->
+    <div id="about">
+      <img id="two" src="vaniprofile.jpeg" />
+
+      <div id="aboutdesc">
+        <i><h1>ABOUT ME</h1></i>
+        <h2>
+          Hi, I’m Vaani — a passionate and detail-oriented aspiring Full-Stack
+          Developer with a strong foundation in Python, MySQL, HTML, CSS, and
+          JavaScript. I enjoy turning ideas into functional, visually appealing,
+          and user-friendly applications. My projects range from building
+          interactive desktop apps like music players, retail shopping apps to
+          designing clean, responsive web pages. I’m constantly learning new
+          tools and technologies to expand my skills, and I love tackling
+          challenges that push me to think creatively and logically.
+        </h2>
+
+        <!-- Links BELOW the paragraph -->
+        <div class="aboutlinks">
+          <a onclick="showSection('skills')">Skills</a>
+          <a onclick="showSection('experience')">Experience</a>
+          <a onclick="showSection('education')">Education</a>
+        </div>
+
+        <!-- Sections hidden until clicked -->
+        <div id="skills" class="tab-section">
+          <h3 style="text-decoration: underline">Skills</h3>
+          <p>
+            1. Python<br />
+            2. MySQL<br />
+            3. HTML<br />
+            4. CSS<br />
+            5. JavaScript
+          </p>
+        </div>
+
+        <div id="experience" class="tab-section">
+          <h3 style="text-decoration: underline">Experience</h3>
+          <p>Internship at ImageCon — Web Development (HTML, CSS, Bootstrap)</p>
+        </div>
+
+        <div id="education" class="tab-section">
+          <h3 style="text-decoration: underline">Education</h3>
+          <p>Bachelor's Degree in Computer Applications</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

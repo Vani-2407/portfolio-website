@@ -1,0 +1,165 @@
+a {
+  text-decoration: none;
+  color: rgb(156, 24, 68);
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+nav {
+  background-color: pink;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  width: 100%;
+  top: 0;
+}
+li {
+  list-style: none;
+  font-style: italic;
+}
+ul {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 22px;
+  letter-spacing: 1px;
+}
+a:hover {
+  background-color: black;
+  border-radius: 10px;
+  color: bisque;
+  font-size: 30px;
+}
+#name {
+  color: bisque;
+  font-size: 70px;
+}
+#name:hover {
+  color: rgb(156, 24, 68);
+  background-color: black;
+}
+body {
+  background-color: black;
+  padding-top: 120px;
+}
+.profiletext {
+  color: bisque;
+  font-style: italic;
+}
+.profilesection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+#one {
+  height: 380px;
+  width: 300px;
+  border-radius: 100px;
+  margin-left: 20%;
+  box-shadow: 5px 5px 6px pink;
+}
+.profiletext:hover {
+  color: rgb(156, 24, 68);
+  background: pink;
+}
+#one:hover {
+  border: 2px solid white;
+}
+#two {
+  height: 380px;
+  width: 400px;
+  border-radius: 100px;
+  box-shadow: 5px 5px 6px pink;
+}
+#two:hover {
+  border: 2px solid white;
+}
+#about {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+#aboutdesc {
+  display: flex;
+  flex-direction: column;
+  font-style: italic;
+  color: bisque;
+}
+
+.aboutlinks {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.aboutlinks a {
+  text-decoration: none;
+  color: bisque;
+  background-color: rgb(156, 24, 68);
+  padding: 8px 15px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.aboutlinks a:hover {
+  background-color: pink;
+  color: rgb(156, 24, 68);
+}
+.tab-section {
+  display: none; /* hidden until clicked */
+  margin-top: 15px;
+  color: bisque;
+}
+
+#skills {
+  font-size: 25px;
+  font-weight: bold;
+}
+#experience {
+  font-size: 25px;
+  font-weight: bold;
+}
+#education {
+  font-size: 25px;
+  font-weight: bold;
+}
+#works {
+  padding: 50px;
+  color: bisque;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 40px;
+  color: rgb(156, 24, 68);
+}
+
+.projects {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap; /* wraps to next row if screen small */
+}
+
+.project-card {
+  background-color: #111;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px pink;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
